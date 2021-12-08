@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/drawable/button_background_blue.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/drawable/ic_back_img.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/drawable/ic_facebook.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/drawable/ic_google_plus.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/drawable/ic_login_hero.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/drawable/ic_side_bg.xml" value="0.2703125" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_count.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_login.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_main.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_products.xml" value="0.2210144927536232" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_ratingg.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_signin.xml" value="0.23097826086956522" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_splash.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/activity_types.xml" value="0.176" />
+        <entry key="..\:/Users/USER1/AndroidStudioProjects/ENDTERMPROJECT/app/src/main/res/layout/customtoast.xml" value="0.23550724637681159" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
