@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backggg"
+    android:padding="5dp"
+
+    tools:context=".LoginActivity">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:src="@drawable/images1"
+
+        android:layout_gravity="center"
+        android:padding="30dp">
+
+    </ImageView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textvi1"
+            android:text="USER NAME : "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Mail  ID"
+            android:id="@+id/edt1">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textvi2"
+            android:text="PASSWORD : "
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="20dp">
+        </TextView>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Password"
+            android:password="true"
+            android:id="@+id/edt2"
+            android:inputType="textPassword">
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="login"
+            android:text="LOGIN">
+
+        </Button>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textColor="#E86A6A"
+            android:text="If New User Register?">
+
+        </TextView>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SIGN IN"
+            android:onClick="signin">
+
+        </Button>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" DONT STOP WHEN  TIRED, STOP WHEN  DONE"
+        android:textColor="#30F338"
+        android:textSize="20dp"
+        android:textStyle="italic">
+
+    </TextView>
+</LinearLayout>

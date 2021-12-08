@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="3"
+    android:rowCount="5"
+    tools:context=".Products">
+    <TextView
+
+        android:layout_height="45dp"
+        android:layout_columnSpan="3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="@string/shop_what_you_can"
+        android:textSize="30dp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageButton
+        android:layout_width="112dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss1"
+        android:scaleType="fitXY"
+        android:src="@drawable/imagess1">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss2"
+        android:scaleType="fitXY"
+        android:src="@drawable/images2">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss3"
+        android:scaleType="fitXY"
+        android:src="@drawable/images3">
+
+    </ImageButton>
+
+    <TextView
+        android:id="@+id/tb1"
+        android:layout_height="15dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="iPHone 11 Price: 50000 Rs"
+        android:textColor="#000000"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_height="15dp"
+        android:id="@+id/tb2"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="Nord Price: 25000 Rs"
+        android:textColor="#000000"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_height="15dp"
+        android:id="@+id/tb3"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="M21 Price: 30000 Rs"
+        android:textColor="#000000"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss4"
+        android:scaleType="fitXY"
+        android:src="@drawable/images4">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss5"
+        android:scaleType="fitXY"
+        android:src="@drawable/images5">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss6"
+        android:scaleType="fitXY"
+        android:src="@drawable/images6">
+
+    </ImageButton>
+
+    <TextView
+
+        android:layout_height="15dp"
+        android:id="@+id/tb4"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="S10 Price: 120000 Rs"
+        android:textColor="#000000"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_height="15dp"
+        android:id="@+id/tb5"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="realme 8 Price: 75000 Rs"
+
+        android:textSize="11dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_height="15dp"
+        android:id="@+id/tb6"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="note 9 pro Price: 74000 Rs"
+        android:textColor="#000000"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss7"
+        android:scaleType="fitXY"
+        android:src="@drawable/images7">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss8"
+        android:scaleType="fitXY"
+        android:src="@drawable/images8">
+
+    </ImageButton>
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:onClick="ss9"
+        android:scaleType="fitXY"
+        android:src="@drawable/images9">
+
+    </ImageButton>
+
+    <TextView
+
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:id="@+id/tb7"
+        android:text="one plus8 Price: 78000 Rs"
+        android:textColor="#000000"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/tb8"
+        android:layout_height="wrap_content"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="Oppo A21 Price: 55000 Rs"
+        android:textColor="#000000"
+        android:textSize="11dp">
+
+    </TextView>
+
+    <TextView
+
+        android:layout_height="15dp"
+        android:layout_columnWeight="1"
+        android:layout_gravity="center"
+        android:text="Oppo A11 Price: 35000 Rs"
+        android:textColor="#000000"
+        android:id="@+id/tb9"
+        android:textSize="11dp">
+
+    </TextView>
+
+
+
+
+</GridLayout>
+
+

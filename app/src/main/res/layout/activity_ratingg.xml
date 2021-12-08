@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    android:background="@drawable/rback"
+    tools:context=".ratingg">
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/rb1"
+        android:background="#FFEB3B"
+        android:numStars="5"
+        android:rating="1">
+
+    </RatingBar>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="submit"
+        android:background="@color/teal_200"
+        android:id="@+id/b1">
+
+    </Button>
+
+
+</LinearLayout>

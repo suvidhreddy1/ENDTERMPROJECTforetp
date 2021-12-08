@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ENDTERMPROJECT</string>
+    <string name="grand_total">GrandTotal </string>
+    <string name="shop_what_you_can">SHOP</string>
+    <string name="_00000">00000</string>
+    <string name="total">TOTAL</string>
+    <string name="s_6">S6</string>
+    <string name="your_cart">YOURCART</string>
+    <string name="s_7">S7</string>
+</resources>
